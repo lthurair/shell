@@ -14,20 +14,17 @@ touch README.md
 touch analysis/main.py
 
 # download client data
-wget -O rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
+curl -Lo rawdata.zip https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/rawdata.zip
 unzip rawdata.zip
 
 ###########################################
 # Complete assignment here
 
 # 1. Create a directory named data
-mkdir data
 
 # 2. Move the ./rawdata directory to ./data/raw
-mv ./rawdata ./data/raw
 
 # 3. List the contents of the ./data/raw directory
-ls ./data/raw 
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 
